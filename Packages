@@ -1,0 +1,41 @@
+Package: com.awesomefusion.nebula
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: awesomefusion
+Installed-Size: 1628
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
+Conflicts: com.awesomefusion.aurora, com.awesomefusion.fusionplayer
+Replaces: com.awesomefusion.aurora, com.awesomefusion.fusionplayer
+Filename: ./debs/Nebula-1.0.1.deb
+Size: 868592
+MD5sum: 23ceafc9463ca1c932730c700ee06b6d
+SHA1: a9f28fbb8f5bdaf675f6ab87fbabb155f1c40e98
+SHA256: ef56e2229c868d4b5ef7bcfa8c90d40b96ab6bd9242fff733cd8305c839db870
+Section: Tweaks
+Description: Nebula gives your iOS 16 Lock Screen a beautiful music player that fits right in, with big album art, a blur in your song's colors and smart touches everywhere.  PLAYER • Three styles: Compact, Expanded (with a volume slider) or Mini • Light, Dark, Auto, or Artwork, which tints the player with each song's colors • Shuffle and repeat beside the skip buttons, on whichever side you like • The AirPlay button shows what you're listening on: AirPods, Beats, HomePod, headphones, your car or the iPhone itself • Animated waveform, haptic feedback and a draggable progress bar • Works with NextUp 3: its Up Next row shows right in Nebula's player • Tap the song title to open the app that's playing  BIG ALBUM ART • Tap the album art to see it large on your Lock Screen • The screen fills with a colorful blur of the art, with the time and date kept on top • Covers slide to the next song as the music changes  LOCK SCREEN • Replace Apple's player in place, or float Nebula under the clock or above the flashlight and camera • Notifications make room for the player instead of sliding under it • Room for Widgets keeps the player below your Lock Screen widgets • Hide When Paused tucks the player away after a long pause • Optionally hide Apple's player and the "No Older Notifications" text  Every change applies instantly, with no respring. Nebula starts turned off: turn it on in Settings → Nebula.  For iOS 16 on rootless jailbreaks such as Dopamine.
+Author: awesomefusion
+Header: file:///var/jb/Library/PreferenceBundles/NebulaPrefs.bundle/SileoHeaderNebula.png
+Icon: file:///var/jb/Library/PreferenceBundles/NebulaPrefs.bundle/NebulaIcon.png
+Name: Nebula
+
+Package: com.awesomefusion.petalclock
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: awesomefusion
+Installed-Size: 1104
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
+Conflicts: com.awesomefusion.meridian
+Replaces: com.awesomefusion.meridian
+Provides: com.awesomefusion.meridian
+Filename: ./debs/Petal-1.0.deb
+Size: 401716
+MD5sum: 3795975b631e21b9ab381f23ddf2d570
+SHA1: b15a7bce77340408fa47e7d1c6fa93beab630a1a
+SHA256: 8cd74b0c260bb9e429d31d21d289bef181ef252ae2b146de716a0bf4b6767c48
+Section: Tweaks
+Description: A fresh Lock Screen clock in Apple's own spot, with a touch of spring.  • Six styles: Classic, Duo, Outline, Stacked, Dots and Analog • Five fonts with natural iOS-style spacing, a weight slider and three sizes • Eight spring colors or any color, and transparency: iOS, Off, Low, Medium, High or custom • Clock and date left, center or right; date above or below; move them freely • Move the lock icon left, center or right • Keeps the depth effect, makes room for widgets, and shows a charging line • Works with Nebula  Settings → Petal. Starts turned off; every change applies live, no respring.
+Author: awesomefusion
+Header: file:///var/jb/Library/PreferenceBundles/PetalPrefs.bundle/SileoHeader.png
+Icon: file:///var/jb/Library/PreferenceBundles/PetalPrefs.bundle/PetalIcon.png
+Name: Petal
+
