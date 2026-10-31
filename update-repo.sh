@@ -14,7 +14,7 @@ set -euo pipefail
 # ---- Edit these to match your repo ----
 ORIGIN="awesomefusion"
 LABEL="awesomefusion"
-DESCRIPTION="Petal & Nebula for iOS 16"
+DESCRIPTION="Petal, Nebula & Sky for iOS 16"
 ARCHITECTURES="iphoneos-arm64"
 DEBS_DIR="debs"
 # ---------------------------------------
