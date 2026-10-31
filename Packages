@@ -60,3 +60,24 @@ Header: file:///var/jb/Library/PreferenceBundles/LockScreenRestorePrefs.bundle/S
 Icon: file:///var/jb/Library/PreferenceBundles/LockScreenRestorePrefs.bundle/SkyIcon.png
 Name: Sky
 
+Package: com.awesomefusion.sky
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: awesomefusion
+Installed-Size: 1116
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
+Conflicts: com.aronsz26.lockscreenrestore
+Replaces: com.aronsz26.lockscreenrestore
+Provides: com.aronsz26.lockscreenrestore
+Filename: ./debs/Sky-1.0.1.deb
+Size: 335622
+MD5sum: fa9e8a1a52a7c41f383a596ee611c7ab
+SHA1: 8dad39109d453eb23bc3a2ac58760bf734ae3827
+SHA256: 07d97c2c616fabceb8e4aa4b69e575e721029d5c5fd0ef6175bf6001a74544ab
+Section: Tweaks
+Description: Sky, iOS 15's codename, brings the iOS 15 Lock Screen back to iOS 16.  • The thin iOS 15 clock, the date below it and the big padlock, with a Clock Size slider • The Focus pill under the date • Notifications listed from the top with iOS 15's card shape • The iOS 15 music player with large artwork and a volume slider • The unlock animation and iOS 15's lighter icon label shadows • iOS 15's wallpapers (Live, Dynamic, Perspective Zoom and the iOS 15 wallpaper library), or iOS 16's with the iOS 14 and 15 wallpapers still there to add • Works with Petal and Nebula  Settings → Sky. One switch turns it all on or off, and every change applies live, no respring (only switching between iOS 15 and iOS 16 wallpapers needs one). Based on LockScreenRestore by aronsz26 (MIT).
+Author: awesomefusion, aronsz26
+Header: file:///var/jb/Library/PreferenceBundles/LockScreenRestorePrefs.bundle/SileoHeaderSky.png
+Icon: file:///var/jb/Library/PreferenceBundles/LockScreenRestorePrefs.bundle/SkyIcon.png
+Name: Sky
+
