@@ -19,7 +19,7 @@ Icon: file:///var/jb/Library/PreferenceBundles/NebulaPrefs.bundle/NebulaIcon.png
 Name: Nebula
 
 Package: com.awesomefusion.petalclock
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: awesomefusion
 Installed-Size: 1104
@@ -27,11 +27,11 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.
 Conflicts: com.awesomefusion.meridian
 Replaces: com.awesomefusion.meridian
 Provides: com.awesomefusion.meridian
-Filename: ./debs/Petal-1.0.deb
-Size: 401716
-MD5sum: 3795975b631e21b9ab381f23ddf2d570
-SHA1: b15a7bce77340408fa47e7d1c6fa93beab630a1a
-SHA256: 8cd74b0c260bb9e429d31d21d289bef181ef252ae2b146de716a0bf4b6767c48
+Filename: ./debs/Petal-1.0.1.deb
+Size: 402474
+MD5sum: e7275178c6ef91494545aa560ae213fc
+SHA1: 447c1273879de9d8826d97f74af0baf760bc230d
+SHA256: 0bfb2b6106a87ddb78a581cbf77cf352237ea77b1261f756fd0511708c5a9559
 Section: Tweaks
 Description: A fresh Lock Screen clock in Apple's own spot, with a touch of spring.  • Six styles: Classic, Duo, Outline, Stacked, Dots and Analog • Five fonts with natural iOS-style spacing, a weight slider and three sizes • Eight spring colors or any color, and transparency: iOS, Off, Low, Medium, High or custom • Clock and date left, center or right; date above or below; move them freely • Move the lock icon left, center or right • Keeps the depth effect, makes room for widgets, and shows a charging line • Works with Nebula  Settings → Petal. Starts turned off; every change applies live, no respring.
 Author: awesomefusion
