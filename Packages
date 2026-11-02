@@ -81,3 +81,24 @@ Header: file:///var/jb/Library/PreferenceBundles/LockScreenRestorePrefs.bundle/S
 Icon: file:///var/jb/Library/PreferenceBundles/LockScreenRestorePrefs.bundle/SkyIcon.png
 Name: Sky
 
+Package: com.awesomefusion.sydney
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: awesomefusion
+Installed-Size: 816
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
+Conflicts: com.yourname.sydney, com.yourname.podbridge
+Replaces: com.yourname.sydney, com.yourname.podbridge
+Provides: com.yourname.sydney, com.yourname.podbridge
+Filename: ./debs/Sydney-1.0.deb
+Size: 375754
+MD5sum: d67aca24c46618a408b48a53e4916a00
+SHA1: 761559f08bad42b81efc62ea6aeb1df6fb2ae7dd
+SHA256: 20dcae27a9941c3c692a012a35ce28ae2d0e6398b957cf2357e38568703bc881
+Section: Tweaks
+Description: Makes newer AirPods work properly on iOS 16.  iOS 16 doesn't know AirPods 4, AirPods 4 (ANC), AirPods Pro 3 or AirPods 5, so it treats them as plain Bluetooth headphones. Sydney shows each one to iOS as the closest model iOS 16 supports.  Features: • AirPods 4 and AirPods 5 show up as AirPods (3rd generation) • AirPods 4 (ANC), AirPods Pro 3 and AirPods 5 (ANC) show up as AirPods Pro (2nd generation) • The AirPods popup with picture and battery when you open the case • The right AirPods icon in Control Center, Now Playing and the Music app • A switch for each model, and a Sydney Harbour themed Settings page that shows your connected AirPods  Notes: • Features iOS 16 never had (Adaptive Audio, Conversation Awareness, head gestures, heart rate) can't be added • The AirPods 5 IDs aren't confirmed yet • After turning it on, forget your AirPods in Bluetooth settings and pair them again  Starts turned off. Turn it on in Settings > Sydney.
+Author: awesomefusion
+Header: file:///var/jb/Library/PreferenceBundles/SydneyPrefs.bundle/SileoHeaderSydney.png
+Icon: file:///var/jb/Library/PreferenceBundles/SydneyPrefs.bundle/SydneyIcon.png
+Name: Sydney
+
